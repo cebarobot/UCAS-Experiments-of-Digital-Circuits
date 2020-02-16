@@ -1,0 +1,1451 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 生成 CPU_TO_MEM.svg Page-4 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="7.33452in" height="3.19553in"
+		viewBox="0 0 528.085 230.078" xml:space="preserve" color-interpolation-filters="sRGB" class="st9">
+	<v:documentProperties v:langID="2052" v:metric="true" v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud v:nameU="msvNoAutoConnect" v:val="VT0(1):26"/>
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st2 {fill:#000000;font-family:Calibri;font-size:0.499992em}
+		.st3 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st4 {fill:#ffffff;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st5 {font-size:1em}
+		.st6 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st7 {fill:none;marker-end:url(#mrkr13-470);stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st8 {fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-opacity:1;stroke-width:0.35714285714286}
+		.st9 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend13">
+			<path d="M 3 1 L 0 0 L 3 -1 L 3 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr13-470" class="st8" v:arrowType="13" v:arrowSize="1" v:setback="8.4" refX="-8.4" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-2.8,-2.8) "/>
+		</marker>
+	</defs>
+	<g v:mID="6" v:index="4" v:groupContext="foregroundPage">
+		<title>页-4</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<v:layer v:name="电气" v:index="0"/>
+		<v:layer v:name="连接线" v:index="1"/>
+		<g id="group471-1" transform="translate(32.534,-143.367)" v:mID="471" v:groupContext="group">
+			<title>工作表.471</title>
+			<g id="shape472-2" v:mID="472" v:groupContext="shape" v:layerMember="0" transform="translate(-5.9952E-15,-33.8541)">
+				<title>输入/输出端口</title>
+				<desc>mem_to_dma_valid</desc>
+				<v:userDefs>
+					<v:ud v:nameU="Form" v:val="VT0(0):26"/>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+					<v:ud v:nameU="visDescription" v:val="VT4(单向或双向输入/输出端口。 )"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.1732" cy="218.389" width="52.38" height="9.20349"/>
+				<path d="M0 226.53 L0 222.99 L21.26 222.99 L28.35 226.53 L21.26 230.08 L0 230.08 L0 226.53 Z" class="st1"/>
+				<text x="-10.34" y="220.19" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>mem_to_dma_valid</text>			</g>
+			<g id="shape473-5" v:mID="473" v:groupContext="shape" v:layerMember="0"
+					transform="translate(28.3465,-16.9271) scale(-1,1)">
+				<title>输入/输出端口.978</title>
+				<desc>dma_to_mem_enable</desc>
+				<v:userDefs>
+					<v:ud v:nameU="Form" v:val="VT0(0):26"/>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+					<v:ud v:nameU="visDescription" v:val="VT4(单向或双向输入/输出端口。 )"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.1732" cy="218.389" width="57.42" height="9.20349"/>
+				<path d="M0 226.53 L0 222.99 L21.26 222.99 L28.35 226.53 L21.26 230.08 L0 230.08 L0 226.53 Z" class="st1"/>
+				<text x="-41.2" y="220.19" transform="scale(-1,1)" class="st2" v:langID="2057"><v:paragraph v:horizAlign="1"/><v:tabList/>dma_to_mem_enable</text>			</g>
+			<g id="shape474-8" v:mID="474" v:groupContext="shape" v:layerMember="0">
+				<title>输入/输出端口.979</title>
+				<desc>mem_data_out</desc>
+				<v:userDefs>
+					<v:ud v:nameU="Form" v:val="VT0(0):26"/>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+					<v:ud v:nameU="visDescription" v:val="VT4(单向或双向输入/输出端口。 )"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.1732" cy="218.389" width="41.15" height="9.20349"/>
+				<path d="M0 226.53 L0 222.99 L21.26 222.99 L28.35 226.53 L21.26 230.08 L0 230.08 L0 226.53 Z" class="st1"/>
+				<text x="-4.72" y="220.19" class="st2" v:langID="2057"><v:paragraph v:horizAlign="1"/><v:tabList/>mem_data_out</text>			</g>
+		</g>
+		<g id="group475-11" transform="translate(32.534,-45.7704)" v:mID="475" v:groupContext="group">
+			<title>工作表.475</title>
+			<g id="shape476-12" v:mID="476" v:groupContext="shape" v:layerMember="0" transform="translate(-5.9952E-15,-33.8541)">
+				<title>输入/输出端口</title>
+				<desc>cpu_to_dma_valid</desc>
+				<v:userDefs>
+					<v:ud v:nameU="Form" v:val="VT0(0):26"/>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+					<v:ud v:nameU="visDescription" v:val="VT4(单向或双向输入/输出端口。 )"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.1732" cy="218.389" width="48.65" height="9.20349"/>
+				<path d="M0 226.53 L0 222.99 L21.26 222.99 L28.35 226.53 L21.26 230.08 L0 230.08 L0 226.53 Z" class="st1"/>
+				<text x="-8.47" y="220.19" class="st2" v:langID="2057"><v:paragraph v:horizAlign="1"/><v:tabList/>cpu_to_dma_valid</text>			</g>
+			<g id="shape477-15" v:mID="477" v:groupContext="shape" v:layerMember="0"
+					transform="translate(28.3465,-16.9271) scale(-1,1)">
+				<title>输入/输出端口.978</title>
+				<desc>dma_to_cpu_enable</desc>
+				<v:userDefs>
+					<v:ud v:nameU="Form" v:val="VT0(0):26"/>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+					<v:ud v:nameU="visDescription" v:val="VT4(单向或双向输入/输出端口。 )"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.1732" cy="218.389" width="53.69" height="9.20349"/>
+				<path d="M0 226.53 L0 222.99 L21.26 222.99 L28.35 226.53 L21.26 230.08 L0 230.08 L0 226.53 Z" class="st1"/>
+				<text x="-39.34" y="220.19" transform="scale(-1,1)" class="st2" v:langID="2057"><v:paragraph v:horizAlign="1"/><v:tabList/>dma_to_cpu_enable</text>			</g>
+			<g id="shape478-18" v:mID="478" v:groupContext="shape" v:layerMember="0">
+				<title>输入/输出端口.979</title>
+				<desc>cpu_data_out</desc>
+				<v:userDefs>
+					<v:ud v:nameU="Form" v:val="VT0(0):26"/>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+					<v:ud v:nameU="visDescription" v:val="VT4(单向或双向输入/输出端口。 )"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.1732" cy="218.389" width="37.42" height="9.20349"/>
+				<path d="M0 226.53 L0 222.99 L21.26 222.99 L28.35 226.53 L21.26 230.08 L0 230.08 L0 226.53 Z" class="st1"/>
+				<text x="-2.85" y="220.19" class="st2" v:langID="2057"><v:paragraph v:horizAlign="1"/><v:tabList/>cpu_data_out</text>			</g>
+		</g>
+		<g id="group479-21" transform="translate(469.069,-143.367)" v:mID="479" v:groupContext="group">
+			<title>工作表.479</title>
+			<g id="shape480-22" v:mID="480" v:groupContext="shape" v:layerMember="0" transform="translate(-5.9952E-15,-33.8541)">
+				<title>输入/输出端口</title>
+				<desc>dma_to_mem_valid</desc>
+				<v:userDefs>
+					<v:ud v:nameU="Form" v:val="VT0(0):26"/>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+					<v:ud v:nameU="visDescription" v:val="VT4(单向或双向输入/输出端口。 )"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.1732" cy="218.389" width="52.38" height="9.20349"/>
+				<path d="M0 226.53 L0 222.99 L21.26 222.99 L28.35 226.53 L21.26 230.08 L0 230.08 L0 226.53 Z" class="st1"/>
+				<text x="-10.34" y="220.19" class="st2" v:langID="2057"><v:paragraph v:horizAlign="1"/><v:tabList/>dma_to_mem_valid</text>			</g>
+			<g id="shape481-25" v:mID="481" v:groupContext="shape" v:layerMember="0"
+					transform="translate(28.3465,-16.9271) scale(-1,1)">
+				<title>输入/输出端口.978</title>
+				<desc>mem_to_dma_enable</desc>
+				<v:userDefs>
+					<v:ud v:nameU="Form" v:val="VT0(0):26"/>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+					<v:ud v:nameU="visDescription" v:val="VT4(单向或双向输入/输出端口。 )"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.1732" cy="218.389" width="57.42" height="9.20349"/>
+				<path d="M0 226.53 L0 222.99 L21.26 222.99 L28.35 226.53 L21.26 230.08 L0 230.08 L0 226.53 Z" class="st1"/>
+				<text x="-41.2" y="220.19" transform="scale(-1,1)" class="st2" v:langID="2057"><v:paragraph v:horizAlign="1"/><v:tabList/>mem_to_dma_enable</text>			</g>
+			<g id="shape482-28" v:mID="482" v:groupContext="shape" v:layerMember="0">
+				<title>输入/输出端口.979</title>
+				<desc>mem_data_in</desc>
+				<v:userDefs>
+					<v:ud v:nameU="Form" v:val="VT0(0):26"/>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+					<v:ud v:nameU="visDescription" v:val="VT4(单向或双向输入/输出端口。 )"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.1732" cy="218.389" width="37.35" height="9.20349"/>
+				<path d="M0 226.53 L0 222.99 L21.26 222.99 L28.35 226.53 L21.26 230.08 L0 230.08 L0 226.53 Z" class="st1"/>
+				<text x="-2.82" y="220.19" class="st2" v:langID="2057"><v:paragraph v:horizAlign="1"/><v:tabList/>mem_data_in</text>			</g>
+		</g>
+		<g id="group483-31" transform="translate(469.069,-45.7704)" v:mID="483" v:groupContext="group">
+			<title>工作表.483</title>
+			<g id="shape484-32" v:mID="484" v:groupContext="shape" v:layerMember="0" transform="translate(-5.9952E-15,-33.8541)">
+				<title>输入/输出端口</title>
+				<desc>dma_to_cpu_valid</desc>
+				<v:userDefs>
+					<v:ud v:nameU="Form" v:val="VT0(0):26"/>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+					<v:ud v:nameU="visDescription" v:val="VT4(单向或双向输入/输出端口。 )"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.1732" cy="218.389" width="48.65" height="9.20349"/>
+				<path d="M0 226.53 L0 222.99 L21.26 222.99 L28.35 226.53 L21.26 230.08 L0 230.08 L0 226.53 Z" class="st1"/>
+				<text x="-8.47" y="220.19" class="st2" v:langID="2057"><v:paragraph v:horizAlign="1"/><v:tabList/>dma_to_cpu_valid</text>			</g>
+			<g id="shape485-35" v:mID="485" v:groupContext="shape" v:layerMember="0"
+					transform="translate(28.3465,-16.9271) scale(-1,1)">
+				<title>输入/输出端口.978</title>
+				<desc>cpu_to_dma_enable</desc>
+				<v:userDefs>
+					<v:ud v:nameU="Form" v:val="VT0(0):26"/>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+					<v:ud v:nameU="visDescription" v:val="VT4(单向或双向输入/输出端口。 )"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.1732" cy="218.389" width="53.69" height="9.20349"/>
+				<path d="M0 226.53 L0 222.99 L21.26 222.99 L28.35 226.53 L21.26 230.08 L0 230.08 L0 226.53 Z" class="st1"/>
+				<text x="-39.34" y="220.19" transform="scale(-1,1)" class="st2" v:langID="2057"><v:paragraph v:horizAlign="1"/><v:tabList/>cpu_to_dma_enable</text>			</g>
+			<g id="shape486-38" v:mID="486" v:groupContext="shape" v:layerMember="0">
+				<title>输入/输出端口.979</title>
+				<desc>cpu_data_in</desc>
+				<v:userDefs>
+					<v:ud v:nameU="Form" v:val="VT0(0):26"/>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+					<v:ud v:nameU="visDescription" v:val="VT4(单向或双向输入/输出端口。 )"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="14.1732" cy="218.389" width="33.62" height="9.20349"/>
+				<path d="M0 226.53 L0 222.99 L21.26 222.99 L28.35 226.53 L21.26 230.08 L0 230.08 L0 226.53 Z" class="st1"/>
+				<text x="-0.96" y="220.19" class="st2" v:langID="2057"><v:paragraph v:horizAlign="1"/><v:tabList/>cpu_data_in</text>			</g>
+		</g>
+		<g id="shape213-41" v:mID="213" v:groupContext="shape" v:layerMember="1" transform="translate(263.808,-156.75)">
+			<title>动态连接线</title>
+			<path d="M3.22 222.99 L10.95 222.99" class="st3"/>
+		</g>
+		<g id="shape214-44" v:mID="214" v:groupContext="shape" v:layerMember="1" transform="translate(263.808,-144.231)">
+			<title>动态连接线.1306</title>
+			<path d="M3.22 222.99 L10.95 222.99" class="st3"/>
+		</g>
+		<g id="shape215-47" v:mID="215" v:groupContext="shape" v:layerMember="1" transform="translate(263.808,-145.884)">
+			<title>动态连接线.1307</title>
+			<path d="M3.22 237.16 L10.95 237.16" class="st3"/>
+		</g>
+		<g id="group702-50" transform="translate(291.702,-132.538)" v:mID="702" v:groupContext="group">
+			<title>工作表.702</title>
+			<g id="group703-51" transform="translate(4.79616E-14,-50.0787)" v:mID="703" v:groupContext="group" v:layerMember="0">
+				<v:custProps>
+					<v:cp v:nameU="Input" v:lbl="输入数目" v:type="1" v:format="0;1" v:sortKey="2" v:langID="2052" v:val="VT4(1)"/>
+					<v:cp v:nameU="Output" v:lbl="输出数目" v:type="1" v:format="0;1" v:sortKey="3" v:langID="2052" v:val="VT4(1)"/>
+					<v:cp v:nameU="Type" v:lbl="部分" v:type="1" v:format="顶部;底部;中部;全部" v:sortKey="1" v:langID="2052" v:val="VT4(顶部)"/>
+					<v:cp v:nameU="Top" v:lbl="顶部针脚数" v:type="1" v:format="0;1;2" v:sortKey="4" v:langID="2052" v:val="VT4(1)"/>
+					<v:cp v:nameU="Bot" v:lbl="底部针脚数" v:type="1" v:format="0;1;2" v:sortKey="5" v:langID="2052" v:val="VT4(0)"/>
+					<v:cp v:nameU="Output" v:lbl="" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+							v:langID="0" v:cal="0" v:val="VT4(0)"/>
+					<v:cp v:nameU="Top" v:lbl="" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+							v:langID="0" v:cal="0" v:val="VT4(0)"/>
+				</v:custProps>
+				<v:userDefs>
+					<v:ud v:nameU="Ratio" v:val="VT0(0.2):26"/>
+					<v:ud v:nameU="Top" v:val="VT4(顶部)"/>
+					<v:ud v:nameU="Base" v:val="VT4(底部)"/>
+					<v:ud v:nameU="Middle" v:val="VT4(中部)"/>
+					<v:ud v:nameU="Complete" v:val="VT4(全部)"/>
+					<v:ud v:nameU="Type" v:val="VT0(0):26"/>
+					<v:ud v:nameU="visDescription" v:val="VT4(Section of an integrated chip.  Adjoin with other sections.)"/>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<title>1X 组块顶部</title>
+				<desc>data_split: obj_data_split</desc>
+				<g id="shape704-52" v:mID="704" v:groupContext="shape" v:layerMember="0">
+					<title>工作表.704</title>
+					<rect x="0" y="217.558" width="84.7077" height="12.5197" class="st4"/>
+				</g>
+				<g id="shape705-54" v:mID="705" v:groupContext="shape" v:layerMember="0" transform="translate(-16.9415,-6.25984)">
+					<title>工作表.705</title>
+					<v:userDefs>
+						<v:ud v:nameU="ArmWidth"/>
+					</v:userDefs>
+					<path d="M0 230.08 L16.94 230.08" class="st3"/>
+				</g>
+				<g id="shape706-57" v:mID="706" v:groupContext="shape" v:layerMember="0"
+						transform="translate(-2.34793E-12,-1.6581)">
+					<title>工作表.706</title>
+					<desc>clk</desc>
+					<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+					<v:textRect cx="6" cy="225.476" width="12.01" height="9.20349"/>
+					<text x="2.68" y="227.28" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>clk</text>				</g>
+				<g id="shape707-59" v:mID="707" v:groupContext="shape" v:layerMember="0" transform="translate(-12,-6.25984)">
+					<title>工作表.707</title>
+					<desc>clk</desc>
+					<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+					<v:textRect cx="6" cy="225.476" width="12.01" height="9.20349"/>
+					<text x="2.68" y="227.28" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>clk</text>				</g>
+				<g id="shape708-61" v:mID="708" v:groupContext="shape" v:layerMember="0" transform="translate(84.7077,-6.25984)">
+					<title>工作表.708</title>
+					<v:userDefs>
+						<v:ud v:nameU="ArmWidth"/>
+					</v:userDefs>
+				</g>
+				<g id="shape711-63" v:mID="711" v:groupContext="shape" v:layerMember="0"
+						transform="translate(285.138,200.617) rotate(90)">
+					<title>工作表.711</title>
+				</g>
+				<g id="shape712-65" v:mID="712" v:groupContext="shape" v:layerMember="0"
+						transform="translate(259.726,200.617) rotate(90)">
+					<title>工作表.712</title>
+				</g>
+				<g id="shape717-67" v:mID="717" v:groupContext="shape" v:layerMember="0"
+						transform="translate(285.138,230.078) rotate(90)">
+					<title>工作表.717</title>
+				</g>
+				<g id="shape720-69" v:mID="720" v:groupContext="shape" v:layerMember="0"
+						transform="translate(259.726,230.078) rotate(90)">
+					<title>工作表.720</title>
+				</g>
+				<g id="shape723-71" v:mID="723" v:groupContext="shape" v:layerMember="0">
+					<title>工作表.723</title>
+					<path d="M84.71 230.08 L84.71 217.56" class="st3"/>
+					<path d="M0 217.56 L84.71 217.56" class="st3"/>
+					<path d="M0 217.56 L0 230.08" class="st3"/>
+				</g>
+				<g id="shape703-76" v:mID="703" v:groupContext="groupContent" v:layerMember="0">
+					<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+					<v:textRect cx="84.7077" cy="206.697" width="65.39" height="9.20349"/>
+					<text x="53.7" y="208.5" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>data_split: obj_data_split</text>				</g>
+			</g>
+			<g id="group724-78" transform="translate(3.9968E-14,-37.5591)" v:mID="724" v:groupContext="group" v:layerMember="0">
+				<v:custProps>
+					<v:cp v:nameU="Input" v:lbl="输入数目" v:type="1" v:format="0;1" v:sortKey="2" v:langID="2052" v:val="VT4(1)"/>
+					<v:cp v:nameU="Output" v:lbl="输出数目" v:type="1" v:format="0;1" v:sortKey="3" v:langID="2052" v:val="VT4(1)"/>
+					<v:cp v:nameU="Type" v:lbl="部分" v:type="1" v:format="顶部;底部;中部;全部" v:sortKey="1" v:langID="2052" v:val="VT4(中部)"/>
+					<v:cp v:nameU="Top" v:lbl="顶部针脚数" v:type="1" v:format="0;1;2" v:sortKey="4" v:langID="2052" v:val="VT4(0)"/>
+					<v:cp v:nameU="Bot" v:lbl="底部针脚数" v:type="1" v:format="0;1;2" v:sortKey="5" v:langID="2052" v:val="VT4(0)"/>
+					<v:cp v:nameU="Output" v:lbl="" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+							v:langID="0" v:cal="0" v:val="VT4(0)"/>
+				</v:custProps>
+				<v:userDefs>
+					<v:ud v:nameU="Ratio" v:val="VT0(0.2):26"/>
+					<v:ud v:nameU="Top" v:val="VT4(顶部)"/>
+					<v:ud v:nameU="Base" v:val="VT4(底部)"/>
+					<v:ud v:nameU="Middle" v:val="VT4(中部)"/>
+					<v:ud v:nameU="Complete" v:val="VT4(全部)"/>
+					<v:ud v:nameU="Type" v:val="VT0(2):26"/>
+					<v:ud v:nameU="visDescription" v:val="VT4(Section of an integrated chip.  Adjoin with other sections.)"/>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<title>1X 组块中部</title>
+				<g id="shape725-79" v:mID="725" v:groupContext="shape" v:layerMember="0">
+					<title>工作表.725</title>
+					<rect x="0" y="217.558" width="84.7077" height="12.5197" class="st4"/>
+				</g>
+				<g id="shape726-81" v:mID="726" v:groupContext="shape" v:layerMember="0" transform="translate(-16.9415,-6.25984)">
+					<title>工作表.726</title>
+					<v:userDefs>
+						<v:ud v:nameU="ArmWidth"/>
+					</v:userDefs>
+					<path d="M0 230.08 L16.94 230.08" class="st3"/>
+				</g>
+				<g id="shape727-84" v:mID="727" v:groupContext="shape" v:layerMember="0"
+						transform="translate(-2.34793E-12,-1.6581)">
+					<title>工作表.727</title>
+					<desc>rstn</desc>
+					<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+					<v:textRect cx="6.48027" cy="225.476" width="12.97" height="9.20349"/>
+					<text x="1.68" y="227.28" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>rstn</text>				</g>
+				<g id="shape728-86" v:mID="728" v:groupContext="shape" v:layerMember="0" transform="translate(-12.9605,-6.25984)">
+					<title>工作表.728</title>
+					<desc>rstn</desc>
+					<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+					<v:textRect cx="6.48027" cy="225.476" width="12.97" height="9.20349"/>
+					<text x="1.68" y="227.28" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>rstn</text>				</g>
+				<g id="shape729-88" v:mID="729" v:groupContext="shape" v:layerMember="0" transform="translate(84.7077,-6.25984)">
+					<title>工作表.729</title>
+					<v:userDefs>
+						<v:ud v:nameU="ArmWidth"/>
+					</v:userDefs>
+				</g>
+				<g id="shape732-90" v:mID="732" v:groupContext="shape" v:layerMember="0"
+						transform="translate(285.138,200.617) rotate(90)">
+					<title>工作表.732</title>
+				</g>
+				<g id="shape733-92" v:mID="733" v:groupContext="shape" v:layerMember="0"
+						transform="translate(259.726,200.617) rotate(90)">
+					<title>工作表.733</title>
+				</g>
+				<g id="shape738-94" v:mID="738" v:groupContext="shape" v:layerMember="0"
+						transform="translate(285.138,230.078) rotate(90)">
+					<title>工作表.738</title>
+				</g>
+				<g id="shape741-96" v:mID="741" v:groupContext="shape" v:layerMember="0"
+						transform="translate(259.726,230.078) rotate(90)">
+					<title>工作表.741</title>
+				</g>
+				<g id="shape744-98" v:mID="744" v:groupContext="shape" v:layerMember="0">
+					<title>工作表.744</title>
+					<path d="M84.71 230.08 L84.71 217.56" class="st3"/>
+					<path d="M0 217.56 L0 230.08" class="st3"/>
+				</g>
+			</g>
+			<g id="group745-102" transform="translate(2.39808E-14,-25.0394)" v:mID="745" v:groupContext="group" v:layerMember="0">
+				<v:custProps>
+					<v:cp v:nameU="Input" v:lbl="输入数目" v:type="1" v:format="0;1" v:sortKey="2" v:langID="2052" v:val="VT4(1)"/>
+					<v:cp v:nameU="Output" v:lbl="输出数目" v:type="1" v:format="0;1" v:sortKey="3" v:langID="2052" v:val="VT4(1)"/>
+					<v:cp v:nameU="Type" v:lbl="部分" v:type="1" v:format="顶部;底部;中部;全部" v:sortKey="1" v:langID="2052" v:val="VT4(中部)"/>
+					<v:cp v:nameU="Top" v:lbl="顶部针脚数" v:type="1" v:format="0;1;2" v:sortKey="4" v:langID="2052" v:val="VT4(0)"/>
+					<v:cp v:nameU="Bot" v:lbl="底部针脚数" v:type="1" v:format="0;1;2" v:sortKey="5" v:langID="2052" v:val="VT4(0)"/>
+				</v:custProps>
+				<v:userDefs>
+					<v:ud v:nameU="Ratio" v:val="VT0(0.2):26"/>
+					<v:ud v:nameU="Top" v:val="VT4(顶部)"/>
+					<v:ud v:nameU="Base" v:val="VT4(底部)"/>
+					<v:ud v:nameU="Middle" v:val="VT4(中部)"/>
+					<v:ud v:nameU="Complete" v:val="VT4(全部)"/>
+					<v:ud v:nameU="Type" v:val="VT0(2):26"/>
+					<v:ud v:nameU="visDescription" v:val="VT4(Section of an integrated chip.  Adjoin with other sections.)"/>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<title>1X 组块中部.705</title>
+				<g id="shape746-103" v:mID="746" v:groupContext="shape" v:layerMember="0">
+					<title>工作表.746</title>
+					<rect x="0" y="217.558" width="84.7077" height="12.5197" class="st4"/>
+				</g>
+				<g id="shape747-105" v:mID="747" v:groupContext="shape" v:layerMember="0" transform="translate(-16.9415,-6.25984)">
+					<title>工作表.747</title>
+					<v:userDefs>
+						<v:ud v:nameU="ArmWidth"/>
+					</v:userDefs>
+					<path d="M0 230.08 L16.94 230.08" class="st3"/>
+				</g>
+				<g id="shape748-108" v:mID="748" v:groupContext="shape" v:layerMember="0"
+						transform="translate(-2.34793E-12,-1.6581)">
+					<title>工作表.748</title>
+					<desc>input_valid</desc>
+					<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+					<v:textRect cx="15.3409" cy="225.476" width="30.69" height="9.20349"/>
+					<text x="1.68" y="227.28" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>input_valid</text>				</g>
+				<g id="shape750-110" v:mID="750" v:groupContext="shape" v:layerMember="0" transform="translate(84.7077,-6.25984)">
+					<title>工作表.750</title>
+					<v:userDefs>
+						<v:ud v:nameU="ArmWidth"/>
+					</v:userDefs>
+					<path d="M0 230.08 L16.94 230.08" class="st3"/>
+				</g>
+				<g id="shape751-113" v:mID="751" v:groupContext="shape" v:layerMember="0" transform="translate(50.229,-1.6581)">
+					<title>工作表.751</title>
+					<desc>output_valid</desc>
+					<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+					<v:textRect cx="17.2393" cy="225.476" width="34.48" height="9.20349"/>
+					<text x="1.68" y="227.28" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>output_valid</text>				</g>
+				<g id="shape752-115" v:mID="752" v:groupContext="shape" v:layerMember="0" transform="translate(84.7077,-6.25984)">
+					<title>工作表.752</title>
+					<desc>dma_to_mem_valid</desc>
+					<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+					<v:textRect cx="26.1893" cy="225.476" width="52.38" height="9.20349"/>
+					<text x="1.68" y="227.28" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>dma_to_mem_valid</text>				</g>
+				<g id="shape753-117" v:mID="753" v:groupContext="shape" v:layerMember="0"
+						transform="translate(285.138,200.617) rotate(90)">
+					<title>工作表.753</title>
+				</g>
+				<g id="shape754-119" v:mID="754" v:groupContext="shape" v:layerMember="0"
+						transform="translate(259.726,200.617) rotate(90)">
+					<title>工作表.754</title>
+				</g>
+				<g id="shape759-121" v:mID="759" v:groupContext="shape" v:layerMember="0"
+						transform="translate(285.138,230.078) rotate(90)">
+					<title>工作表.759</title>
+				</g>
+				<g id="shape762-123" v:mID="762" v:groupContext="shape" v:layerMember="0"
+						transform="translate(259.726,230.078) rotate(90)">
+					<title>工作表.762</title>
+				</g>
+				<g id="shape765-125" v:mID="765" v:groupContext="shape" v:layerMember="0">
+					<title>工作表.765</title>
+					<path d="M84.71 230.08 L84.71 217.56" class="st3"/>
+					<path d="M0 217.56 L0 230.08" class="st3"/>
+				</g>
+			</g>
+			<g id="group766-129" transform="translate(0,-12.5197)" v:mID="766" v:groupContext="group" v:layerMember="0">
+				<v:custProps>
+					<v:cp v:nameU="Input" v:lbl="输入数目" v:type="1" v:format="0;1" v:sortKey="2" v:langID="2052" v:val="VT4(1)"/>
+					<v:cp v:nameU="Output" v:lbl="输出数目" v:type="1" v:format="0;1" v:sortKey="3" v:langID="2052" v:val="VT4(1)"/>
+					<v:cp v:nameU="Type" v:lbl="部分" v:type="1" v:format="顶部;底部;中部;全部" v:sortKey="1" v:langID="2052" v:val="VT4(中部)"/>
+					<v:cp v:nameU="Top" v:lbl="顶部针脚数" v:type="1" v:format="0;1;2" v:sortKey="4" v:langID="2052" v:val="VT4(0)"/>
+					<v:cp v:nameU="Bot" v:lbl="底部针脚数" v:type="1" v:format="0;1;2" v:sortKey="5" v:langID="2052" v:val="VT4(0)"/>
+				</v:custProps>
+				<v:userDefs>
+					<v:ud v:nameU="Ratio" v:val="VT0(0.2):26"/>
+					<v:ud v:nameU="Top" v:val="VT4(顶部)"/>
+					<v:ud v:nameU="Base" v:val="VT4(底部)"/>
+					<v:ud v:nameU="Middle" v:val="VT4(中部)"/>
+					<v:ud v:nameU="Complete" v:val="VT4(全部)"/>
+					<v:ud v:nameU="Type" v:val="VT0(2):26"/>
+					<v:ud v:nameU="visDescription" v:val="VT4(Section of an integrated chip.  Adjoin with other sections.)"/>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<title>1X 组块中部.726</title>
+				<g id="shape767-130" v:mID="767" v:groupContext="shape" v:layerMember="0">
+					<title>工作表.767</title>
+					<rect x="0" y="217.558" width="84.7077" height="12.5197" class="st4"/>
+				</g>
+				<g id="shape768-132" v:mID="768" v:groupContext="shape" v:layerMember="0" transform="translate(-16.9415,-6.25984)">
+					<title>工作表.768</title>
+					<v:userDefs>
+						<v:ud v:nameU="ArmWidth"/>
+					</v:userDefs>
+					<path d="M0 230.08 L16.94 230.08" class="st3"/>
+				</g>
+				<g id="shape769-135" v:mID="769" v:groupContext="shape" v:layerMember="0"
+						transform="translate(-2.34793E-12,-1.6581)">
+					<title>工作表.769</title>
+					<desc>input_enable</desc>
+					<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+					<v:textRect cx="17.8588" cy="225.476" width="35.72" height="9.20349"/>
+					<text x="1.68" y="227.28" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>input_enable</text>				</g>
+				<g id="shape771-137" v:mID="771" v:groupContext="shape" v:layerMember="0" transform="translate(84.7077,-6.25984)">
+					<title>工作表.771</title>
+					<v:userDefs>
+						<v:ud v:nameU="ArmWidth"/>
+					</v:userDefs>
+					<path d="M0 230.08 L16.94 230.08" class="st3"/>
+				</g>
+				<g id="shape772-140" v:mID="772" v:groupContext="shape" v:layerMember="0" transform="translate(45.1932,-1.6581)">
+					<title>工作表.772</title>
+					<desc>output_enable</desc>
+					<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+					<v:textRect cx="19.7572" cy="225.476" width="39.52" height="9.20349"/>
+					<text x="1.68" y="227.28" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>output_enable</text>				</g>
+				<g id="shape773-142" v:mID="773" v:groupContext="shape" v:layerMember="0" transform="translate(84.7077,-6.25984)">
+					<title>工作表.773</title>
+					<desc>mem_to_dma_enable</desc>
+					<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+					<v:textRect cx="28.7073" cy="225.476" width="57.42" height="9.20349"/>
+					<text x="1.68" y="227.28" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>mem_to_dma_enable</text>				</g>
+				<g id="shape774-144" v:mID="774" v:groupContext="shape" v:layerMember="0"
+						transform="translate(285.138,200.617) rotate(90)">
+					<title>工作表.774</title>
+				</g>
+				<g id="shape775-146" v:mID="775" v:groupContext="shape" v:layerMember="0"
+						transform="translate(259.726,200.617) rotate(90)">
+					<title>工作表.775</title>
+				</g>
+				<g id="shape780-148" v:mID="780" v:groupContext="shape" v:layerMember="0"
+						transform="translate(285.138,230.078) rotate(90)">
+					<title>工作表.780</title>
+				</g>
+				<g id="shape783-150" v:mID="783" v:groupContext="shape" v:layerMember="0"
+						transform="translate(259.726,230.078) rotate(90)">
+					<title>工作表.783</title>
+				</g>
+				<g id="shape786-152" v:mID="786" v:groupContext="shape" v:layerMember="0">
+					<title>工作表.786</title>
+					<path d="M84.71 230.08 L84.71 217.56" class="st3"/>
+					<path d="M0 217.56 L0 230.08" class="st3"/>
+				</g>
+			</g>
+			<g id="group787-156" v:mID="787" v:groupContext="group" v:layerMember="0">
+				<v:custProps>
+					<v:cp v:nameU="Input" v:lbl="输入数目" v:type="1" v:format="0;1" v:sortKey="2" v:langID="2052" v:val="VT4(1)"/>
+					<v:cp v:nameU="Output" v:lbl="输出数目" v:type="1" v:format="0;1" v:sortKey="3" v:langID="2052" v:val="VT4(1)"/>
+					<v:cp v:nameU="Type" v:lbl="部分" v:type="1" v:format="顶部;底部;中部;全部" v:sortKey="1" v:langID="2052" v:val="VT4(底部)"/>
+					<v:cp v:nameU="Top" v:lbl="顶部针脚数" v:type="1" v:format="0;1;2" v:sortKey="4" v:langID="2052" v:val="VT4(0)"/>
+					<v:cp v:nameU="Bot" v:lbl="底部针脚数" v:type="1" v:format="0;1;2" v:sortKey="5" v:langID="2052" v:val="VT4(1)"/>
+					<v:cp v:nameU="Bot" v:lbl="" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+							v:langID="0" v:cal="0" v:val="VT4(0)"/>
+				</v:custProps>
+				<v:userDefs>
+					<v:ud v:nameU="Ratio" v:val="VT0(0.2):26"/>
+					<v:ud v:nameU="Top" v:val="VT4(顶部)"/>
+					<v:ud v:nameU="Base" v:val="VT4(底部)"/>
+					<v:ud v:nameU="Middle" v:val="VT4(中部)"/>
+					<v:ud v:nameU="Complete" v:val="VT4(全部)"/>
+					<v:ud v:nameU="Type" v:val="VT0(1):26"/>
+					<v:ud v:nameU="visDescription" v:val="VT4(Section of an integrated chip.  Adjoin with other sections.)"/>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<title>1X 组块底部</title>
+				<g id="shape788-157" v:mID="788" v:groupContext="shape" v:layerMember="0">
+					<title>工作表.788</title>
+					<rect x="0" y="217.558" width="84.7077" height="12.5197" class="st4"/>
+				</g>
+				<g id="shape789-159" v:mID="789" v:groupContext="shape" v:layerMember="0" transform="translate(-16.9415,-6.25984)">
+					<title>工作表.789</title>
+					<v:userDefs>
+						<v:ud v:nameU="ArmWidth"/>
+					</v:userDefs>
+					<path d="M0 230.08 L16.94 230.08" class="st3"/>
+				</g>
+				<g id="shape790-162" v:mID="790" v:groupContext="shape" v:layerMember="0"
+						transform="translate(-2.34793E-12,-1.6581)">
+					<title>工作表.790</title>
+					<desc>data_in</desc>
+					<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+					<v:textRect cx="10.8938" cy="225.476" width="21.79" height="9.20349"/>
+					<text x="1.68" y="227.28" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>data_in</text>				</g>
+				<g id="shape792-164" v:mID="792" v:groupContext="shape" v:layerMember="0" transform="translate(84.7077,-6.25984)">
+					<title>工作表.792</title>
+					<v:userDefs>
+						<v:ud v:nameU="ArmWidth"/>
+					</v:userDefs>
+					<path d="M0 230.08 L16.94 230.08" class="st3"/>
+				</g>
+				<g id="shape793-167" v:mID="793" v:groupContext="shape" v:layerMember="0" transform="translate(59.1233,-1.6581)">
+					<title>工作表.793</title>
+					<desc>data_out</desc>
+					<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+					<v:textRect cx="12.7922" cy="225.476" width="25.59" height="9.20349"/>
+					<text x="1.68" y="227.28" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>data_out</text>				</g>
+				<g id="shape794-169" v:mID="794" v:groupContext="shape" v:layerMember="0" transform="translate(84.7077,-6.25984)">
+					<title>工作表.794</title>
+					<desc>mem_data_in</desc>
+					<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+					<v:textRect cx="18.6733" cy="225.476" width="37.35" height="9.20349"/>
+					<text x="1.68" y="227.28" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>mem_data_in</text>				</g>
+				<g id="shape795-171" v:mID="795" v:groupContext="shape" v:layerMember="0"
+						transform="translate(285.138,200.617) rotate(90)">
+					<title>工作表.795</title>
+				</g>
+				<g id="shape796-173" v:mID="796" v:groupContext="shape" v:layerMember="0"
+						transform="translate(259.726,200.617) rotate(90)">
+					<title>工作表.796</title>
+				</g>
+				<g id="shape801-175" v:mID="801" v:groupContext="shape" v:layerMember="0"
+						transform="translate(285.138,230.078) rotate(90)">
+					<title>工作表.801</title>
+				</g>
+				<g id="shape804-177" v:mID="804" v:groupContext="shape" v:layerMember="0"
+						transform="translate(259.726,230.078) rotate(90)">
+					<title>工作表.804</title>
+				</g>
+				<g id="shape807-179" v:mID="807" v:groupContext="shape" v:layerMember="0">
+					<title>工作表.807</title>
+					<path d="M0 230.08 L84.71 230.08" class="st3"/>
+					<path d="M84.71 230.08 L84.71 217.56" class="st3"/>
+					<path d="M0 217.56 L0 230.08" class="st3"/>
+				</g>
+			</g>
+		</g>
+		<g id="group808-184" transform="translate(165.379,-34.9415)" v:mID="808" v:groupContext="group">
+			<title>工作表.808</title>
+			<g id="group809-185" transform="translate(4.79616E-14,-50.0787)" v:mID="809" v:groupContext="group" v:layerMember="0">
+				<v:custProps>
+					<v:cp v:nameU="Input" v:lbl="输入数目" v:type="1" v:format="0;1" v:sortKey="2" v:langID="2052" v:val="VT4(1)"/>
+					<v:cp v:nameU="Output" v:lbl="输出数目" v:type="1" v:format="0;1" v:sortKey="3" v:langID="2052" v:val="VT4(1)"/>
+					<v:cp v:nameU="Type" v:lbl="部分" v:type="1" v:format="顶部;底部;中部;全部" v:sortKey="1" v:langID="2052" v:val="VT4(顶部)"/>
+					<v:cp v:nameU="Top" v:lbl="顶部针脚数" v:type="1" v:format="0;1;2" v:sortKey="4" v:langID="2052" v:val="VT4(1)"/>
+					<v:cp v:nameU="Bot" v:lbl="底部针脚数" v:type="1" v:format="0;1;2" v:sortKey="5" v:langID="2052" v:val="VT4(0)"/>
+					<v:cp v:nameU="Output" v:lbl="" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+							v:langID="0" v:cal="0" v:val="VT4(0)"/>
+					<v:cp v:nameU="Top" v:lbl="" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+							v:langID="0" v:cal="0" v:val="VT4(0)"/>
+				</v:custProps>
+				<v:userDefs>
+					<v:ud v:nameU="Ratio" v:val="VT0(0.2):26"/>
+					<v:ud v:nameU="Top" v:val="VT4(顶部)"/>
+					<v:ud v:nameU="Base" v:val="VT4(底部)"/>
+					<v:ud v:nameU="Middle" v:val="VT4(中部)"/>
+					<v:ud v:nameU="Complete" v:val="VT4(全部)"/>
+					<v:ud v:nameU="Type" v:val="VT0(0):26"/>
+					<v:ud v:nameU="visDescription" v:val="VT4(Section of an integrated chip.  Adjoin with other sections.)"/>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<title>1X 组块顶部</title>
+				<desc>FIFO: BUF2 / BUF1</desc>
+				<g id="shape810-186" v:mID="810" v:groupContext="shape" v:layerMember="0">
+					<title>工作表.810</title>
+					<rect x="0" y="217.558" width="84.7077" height="12.5197" class="st4"/>
+				</g>
+				<g id="shape811-188" v:mID="811" v:groupContext="shape" v:layerMember="0" transform="translate(-16.9415,-6.25984)">
+					<title>工作表.811</title>
+					<v:userDefs>
+						<v:ud v:nameU="ArmWidth"/>
+					</v:userDefs>
+					<path d="M0 230.08 L16.94 230.08" class="st3"/>
+				</g>
+				<g id="shape812-191" v:mID="812" v:groupContext="shape" v:layerMember="0"
+						transform="translate(-2.34793E-12,-1.6581)">
+					<title>工作表.812</title>
+					<desc>clk</desc>
+					<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+					<v:textRect cx="6" cy="225.476" width="12.01" height="9.20349"/>
+					<text x="2.68" y="227.28" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>clk</text>				</g>
+				<g id="shape813-193" v:mID="813" v:groupContext="shape" v:layerMember="0" transform="translate(-12,-6.25984)">
+					<title>工作表.813</title>
+					<desc>clk</desc>
+					<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+					<v:textRect cx="6" cy="225.476" width="12.01" height="9.20349"/>
+					<text x="2.68" y="227.28" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>clk</text>				</g>
+				<g id="shape814-195" v:mID="814" v:groupContext="shape" v:layerMember="0" transform="translate(84.7077,-6.25984)">
+					<title>工作表.814</title>
+					<v:userDefs>
+						<v:ud v:nameU="ArmWidth"/>
+					</v:userDefs>
+				</g>
+				<g id="shape817-197" v:mID="817" v:groupContext="shape" v:layerMember="0"
+						transform="translate(285.138,200.617) rotate(90)">
+					<title>工作表.817</title>
+				</g>
+				<g id="shape818-199" v:mID="818" v:groupContext="shape" v:layerMember="0"
+						transform="translate(259.726,200.617) rotate(90)">
+					<title>工作表.818</title>
+				</g>
+				<g id="shape823-201" v:mID="823" v:groupContext="shape" v:layerMember="0"
+						transform="translate(285.138,230.078) rotate(90)">
+					<title>工作表.823</title>
+				</g>
+				<g id="shape826-203" v:mID="826" v:groupContext="shape" v:layerMember="0"
+						transform="translate(259.726,230.078) rotate(90)">
+					<title>工作表.826</title>
+				</g>
+				<g id="shape829-205" v:mID="829" v:groupContext="shape" v:layerMember="0">
+					<title>工作表.829</title>
+					<path d="M84.71 230.08 L84.71 217.56" class="st3"/>
+					<path d="M0 217.56 L84.71 217.56" class="st3"/>
+					<path d="M0 217.56 L0 230.08" class="st3"/>
+				</g>
+				<g id="shape809-210" v:mID="809" v:groupContext="groupContent" v:layerMember="0">
+					<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+					<v:textRect cx="84.7077" cy="206.697" width="48.18" height="9.20349"/>
+					<text x="62.3" y="208.5" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>FIFO: BUF2 / BUF1</text>				</g>
+			</g>
+			<g id="group830-212" transform="translate(3.9968E-14,-37.5591)" v:mID="830" v:groupContext="group" v:layerMember="0">
+				<v:custProps>
+					<v:cp v:nameU="Input" v:lbl="输入数目" v:type="1" v:format="0;1" v:sortKey="2" v:langID="2052" v:val="VT4(1)"/>
+					<v:cp v:nameU="Output" v:lbl="输出数目" v:type="1" v:format="0;1" v:sortKey="3" v:langID="2052" v:val="VT4(1)"/>
+					<v:cp v:nameU="Type" v:lbl="部分" v:type="1" v:format="顶部;底部;中部;全部" v:sortKey="1" v:langID="2052" v:val="VT4(中部)"/>
+					<v:cp v:nameU="Top" v:lbl="顶部针脚数" v:type="1" v:format="0;1;2" v:sortKey="4" v:langID="2052" v:val="VT4(0)"/>
+					<v:cp v:nameU="Bot" v:lbl="底部针脚数" v:type="1" v:format="0;1;2" v:sortKey="5" v:langID="2052" v:val="VT4(0)"/>
+					<v:cp v:nameU="Output" v:lbl="" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+							v:langID="0" v:cal="0" v:val="VT4(0)"/>
+				</v:custProps>
+				<v:userDefs>
+					<v:ud v:nameU="Ratio" v:val="VT0(0.2):26"/>
+					<v:ud v:nameU="Top" v:val="VT4(顶部)"/>
+					<v:ud v:nameU="Base" v:val="VT4(底部)"/>
+					<v:ud v:nameU="Middle" v:val="VT4(中部)"/>
+					<v:ud v:nameU="Complete" v:val="VT4(全部)"/>
+					<v:ud v:nameU="Type" v:val="VT0(2):26"/>
+					<v:ud v:nameU="visDescription" v:val="VT4(Section of an integrated chip.  Adjoin with other sections.)"/>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<title>1X 组块中部</title>
+				<g id="shape831-213" v:mID="831" v:groupContext="shape" v:layerMember="0">
+					<title>工作表.831</title>
+					<rect x="0" y="217.558" width="84.7077" height="12.5197" class="st4"/>
+				</g>
+				<g id="shape832-215" v:mID="832" v:groupContext="shape" v:layerMember="0" transform="translate(-16.9415,-6.25984)">
+					<title>工作表.832</title>
+					<v:userDefs>
+						<v:ud v:nameU="ArmWidth"/>
+					</v:userDefs>
+					<path d="M0 230.08 L16.94 230.08" class="st3"/>
+				</g>
+				<g id="shape833-218" v:mID="833" v:groupContext="shape" v:layerMember="0"
+						transform="translate(-2.34793E-12,-1.6581)">
+					<title>工作表.833</title>
+					<desc>rstn</desc>
+					<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+					<v:textRect cx="6.48027" cy="225.476" width="12.97" height="9.20349"/>
+					<text x="1.68" y="227.28" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>rstn</text>				</g>
+				<g id="shape834-220" v:mID="834" v:groupContext="shape" v:layerMember="0" transform="translate(-12.9605,-6.25984)">
+					<title>工作表.834</title>
+					<desc>rstn</desc>
+					<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+					<v:textRect cx="6.48027" cy="225.476" width="12.97" height="9.20349"/>
+					<text x="1.68" y="227.28" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>rstn</text>				</g>
+				<g id="shape835-222" v:mID="835" v:groupContext="shape" v:layerMember="0" transform="translate(84.7077,-6.25984)">
+					<title>工作表.835</title>
+					<v:userDefs>
+						<v:ud v:nameU="ArmWidth"/>
+					</v:userDefs>
+				</g>
+				<g id="shape838-224" v:mID="838" v:groupContext="shape" v:layerMember="0"
+						transform="translate(285.138,200.617) rotate(90)">
+					<title>工作表.838</title>
+				</g>
+				<g id="shape839-226" v:mID="839" v:groupContext="shape" v:layerMember="0"
+						transform="translate(259.726,200.617) rotate(90)">
+					<title>工作表.839</title>
+				</g>
+				<g id="shape844-228" v:mID="844" v:groupContext="shape" v:layerMember="0"
+						transform="translate(285.138,230.078) rotate(90)">
+					<title>工作表.844</title>
+				</g>
+				<g id="shape847-230" v:mID="847" v:groupContext="shape" v:layerMember="0"
+						transform="translate(259.726,230.078) rotate(90)">
+					<title>工作表.847</title>
+				</g>
+				<g id="shape850-232" v:mID="850" v:groupContext="shape" v:layerMember="0">
+					<title>工作表.850</title>
+					<path d="M84.71 230.08 L84.71 217.56" class="st3"/>
+					<path d="M0 217.56 L0 230.08" class="st3"/>
+				</g>
+			</g>
+			<g id="group851-236" transform="translate(2.39808E-14,-25.0394)" v:mID="851" v:groupContext="group" v:layerMember="0">
+				<v:custProps>
+					<v:cp v:nameU="Input" v:lbl="输入数目" v:type="1" v:format="0;1" v:sortKey="2" v:langID="2052" v:val="VT4(1)"/>
+					<v:cp v:nameU="Output" v:lbl="输出数目" v:type="1" v:format="0;1" v:sortKey="3" v:langID="2052" v:val="VT4(1)"/>
+					<v:cp v:nameU="Type" v:lbl="部分" v:type="1" v:format="顶部;底部;中部;全部" v:sortKey="1" v:langID="2052" v:val="VT4(中部)"/>
+					<v:cp v:nameU="Top" v:lbl="顶部针脚数" v:type="1" v:format="0;1;2" v:sortKey="4" v:langID="2052" v:val="VT4(0)"/>
+					<v:cp v:nameU="Bot" v:lbl="底部针脚数" v:type="1" v:format="0;1;2" v:sortKey="5" v:langID="2052" v:val="VT4(0)"/>
+				</v:custProps>
+				<v:userDefs>
+					<v:ud v:nameU="Ratio" v:val="VT0(0.2):26"/>
+					<v:ud v:nameU="Top" v:val="VT4(顶部)"/>
+					<v:ud v:nameU="Base" v:val="VT4(底部)"/>
+					<v:ud v:nameU="Middle" v:val="VT4(中部)"/>
+					<v:ud v:nameU="Complete" v:val="VT4(全部)"/>
+					<v:ud v:nameU="Type" v:val="VT0(2):26"/>
+					<v:ud v:nameU="visDescription" v:val="VT4(Section of an integrated chip.  Adjoin with other sections.)"/>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<title>1X 组块中部.705</title>
+				<g id="shape852-237" v:mID="852" v:groupContext="shape" v:layerMember="0">
+					<title>工作表.852</title>
+					<rect x="0" y="217.558" width="84.7077" height="12.5197" class="st4"/>
+				</g>
+				<g id="shape853-239" v:mID="853" v:groupContext="shape" v:layerMember="0" transform="translate(-16.9415,-6.25984)">
+					<title>工作表.853</title>
+					<v:userDefs>
+						<v:ud v:nameU="ArmWidth"/>
+					</v:userDefs>
+					<path d="M0 230.08 L16.94 230.08" class="st3"/>
+				</g>
+				<g id="shape854-242" v:mID="854" v:groupContext="shape" v:layerMember="0"
+						transform="translate(-2.34793E-12,-1.6581)">
+					<title>工作表.854</title>
+					<desc>input_valid</desc>
+					<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+					<v:textRect cx="15.3409" cy="225.476" width="30.69" height="9.20349"/>
+					<text x="1.68" y="227.28" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>input_valid</text>				</g>
+				<g id="shape855-244" v:mID="855" v:groupContext="shape" v:layerMember="0" transform="translate(-48.6494,-6.25984)">
+					<title>工作表.855</title>
+					<desc>cpu_to_dma_valid</desc>
+					<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+					<v:textRect cx="24.3247" cy="225.476" width="48.65" height="9.20349"/>
+					<text x="1.68" y="227.28" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>cpu<tspan
+								class="st5" v:langID="2057">_to_dma_valid</tspan></text>				</g>
+				<g id="shape856-247" v:mID="856" v:groupContext="shape" v:layerMember="0" transform="translate(84.7077,-6.25984)">
+					<title>工作表.856</title>
+					<v:userDefs>
+						<v:ud v:nameU="ArmWidth"/>
+					</v:userDefs>
+					<path d="M0 230.08 L16.94 230.08" class="st3"/>
+				</g>
+				<g id="shape857-250" v:mID="857" v:groupContext="shape" v:layerMember="0" transform="translate(50.229,-1.6581)">
+					<title>工作表.857</title>
+					<desc>output_valid</desc>
+					<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+					<v:textRect cx="17.2393" cy="225.476" width="34.48" height="9.20349"/>
+					<text x="1.68" y="227.28" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>output_valid</text>				</g>
+				<g id="shape859-252" v:mID="859" v:groupContext="shape" v:layerMember="0"
+						transform="translate(285.138,200.617) rotate(90)">
+					<title>工作表.859</title>
+				</g>
+				<g id="shape860-254" v:mID="860" v:groupContext="shape" v:layerMember="0"
+						transform="translate(259.726,200.617) rotate(90)">
+					<title>工作表.860</title>
+				</g>
+				<g id="shape865-256" v:mID="865" v:groupContext="shape" v:layerMember="0"
+						transform="translate(285.138,230.078) rotate(90)">
+					<title>工作表.865</title>
+				</g>
+				<g id="shape868-258" v:mID="868" v:groupContext="shape" v:layerMember="0"
+						transform="translate(259.726,230.078) rotate(90)">
+					<title>工作表.868</title>
+				</g>
+				<g id="shape871-260" v:mID="871" v:groupContext="shape" v:layerMember="0">
+					<title>工作表.871</title>
+					<path d="M84.71 230.08 L84.71 217.56" class="st3"/>
+					<path d="M0 217.56 L0 230.08" class="st3"/>
+				</g>
+			</g>
+			<g id="group872-264" transform="translate(0,-12.5197)" v:mID="872" v:groupContext="group" v:layerMember="0">
+				<v:custProps>
+					<v:cp v:nameU="Input" v:lbl="输入数目" v:type="1" v:format="0;1" v:sortKey="2" v:langID="2052" v:val="VT4(1)"/>
+					<v:cp v:nameU="Output" v:lbl="输出数目" v:type="1" v:format="0;1" v:sortKey="3" v:langID="2052" v:val="VT4(1)"/>
+					<v:cp v:nameU="Type" v:lbl="部分" v:type="1" v:format="顶部;底部;中部;全部" v:sortKey="1" v:langID="2052" v:val="VT4(中部)"/>
+					<v:cp v:nameU="Top" v:lbl="顶部针脚数" v:type="1" v:format="0;1;2" v:sortKey="4" v:langID="2052" v:val="VT4(0)"/>
+					<v:cp v:nameU="Bot" v:lbl="底部针脚数" v:type="1" v:format="0;1;2" v:sortKey="5" v:langID="2052" v:val="VT4(0)"/>
+				</v:custProps>
+				<v:userDefs>
+					<v:ud v:nameU="Ratio" v:val="VT0(0.2):26"/>
+					<v:ud v:nameU="Top" v:val="VT4(顶部)"/>
+					<v:ud v:nameU="Base" v:val="VT4(底部)"/>
+					<v:ud v:nameU="Middle" v:val="VT4(中部)"/>
+					<v:ud v:nameU="Complete" v:val="VT4(全部)"/>
+					<v:ud v:nameU="Type" v:val="VT0(2):26"/>
+					<v:ud v:nameU="visDescription" v:val="VT4(Section of an integrated chip.  Adjoin with other sections.)"/>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<title>1X 组块中部.726</title>
+				<g id="shape873-265" v:mID="873" v:groupContext="shape" v:layerMember="0">
+					<title>工作表.873</title>
+					<rect x="0" y="217.558" width="84.7077" height="12.5197" class="st4"/>
+				</g>
+				<g id="shape874-267" v:mID="874" v:groupContext="shape" v:layerMember="0" transform="translate(-16.9415,-6.25984)">
+					<title>工作表.874</title>
+					<v:userDefs>
+						<v:ud v:nameU="ArmWidth"/>
+					</v:userDefs>
+					<path d="M0 230.08 L16.94 230.08" class="st3"/>
+				</g>
+				<g id="shape875-270" v:mID="875" v:groupContext="shape" v:layerMember="0"
+						transform="translate(-2.34793E-12,-1.6581)">
+					<title>工作表.875</title>
+					<desc>input_enable</desc>
+					<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+					<v:textRect cx="17.8588" cy="225.476" width="35.72" height="9.20349"/>
+					<text x="1.68" y="227.28" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>input_enable</text>				</g>
+				<g id="shape876-272" v:mID="876" v:groupContext="shape" v:layerMember="0" transform="translate(-53.6852,-6.25984)">
+					<title>工作表.876</title>
+					<desc>dma_to_cpu_enable</desc>
+					<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+					<v:textRect cx="26.8426" cy="225.476" width="53.69" height="9.20349"/>
+					<text x="1.68" y="227.28" class="st2" v:langID="2057"><v:paragraph v:horizAlign="1"/><v:tabList/>dma_to_<tspan
+								class="st5" v:langID="2052">cpu</tspan>_enable</text>				</g>
+				<g id="shape877-275" v:mID="877" v:groupContext="shape" v:layerMember="0" transform="translate(84.7077,-6.25984)">
+					<title>工作表.877</title>
+					<v:userDefs>
+						<v:ud v:nameU="ArmWidth"/>
+					</v:userDefs>
+					<path d="M0 230.08 L16.94 230.08" class="st3"/>
+				</g>
+				<g id="shape878-278" v:mID="878" v:groupContext="shape" v:layerMember="0" transform="translate(45.1932,-1.6581)">
+					<title>工作表.878</title>
+					<desc>output_enable</desc>
+					<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+					<v:textRect cx="19.7572" cy="225.476" width="39.52" height="9.20349"/>
+					<text x="1.68" y="227.28" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>output_enable</text>				</g>
+				<g id="shape880-280" v:mID="880" v:groupContext="shape" v:layerMember="0"
+						transform="translate(285.138,200.617) rotate(90)">
+					<title>工作表.880</title>
+				</g>
+				<g id="shape881-282" v:mID="881" v:groupContext="shape" v:layerMember="0"
+						transform="translate(259.726,200.617) rotate(90)">
+					<title>工作表.881</title>
+				</g>
+				<g id="shape886-284" v:mID="886" v:groupContext="shape" v:layerMember="0"
+						transform="translate(285.138,230.078) rotate(90)">
+					<title>工作表.886</title>
+				</g>
+				<g id="shape889-286" v:mID="889" v:groupContext="shape" v:layerMember="0"
+						transform="translate(259.726,230.078) rotate(90)">
+					<title>工作表.889</title>
+				</g>
+				<g id="shape892-288" v:mID="892" v:groupContext="shape" v:layerMember="0">
+					<title>工作表.892</title>
+					<path d="M84.71 230.08 L84.71 217.56" class="st3"/>
+					<path d="M0 217.56 L0 230.08" class="st3"/>
+				</g>
+			</g>
+			<g id="group893-292" v:mID="893" v:groupContext="group" v:layerMember="0">
+				<v:custProps>
+					<v:cp v:nameU="Input" v:lbl="输入数目" v:type="1" v:format="0;1" v:sortKey="2" v:langID="2052" v:val="VT4(1)"/>
+					<v:cp v:nameU="Output" v:lbl="输出数目" v:type="1" v:format="0;1" v:sortKey="3" v:langID="2052" v:val="VT4(1)"/>
+					<v:cp v:nameU="Type" v:lbl="部分" v:type="1" v:format="顶部;底部;中部;全部" v:sortKey="1" v:langID="2052" v:val="VT4(底部)"/>
+					<v:cp v:nameU="Top" v:lbl="顶部针脚数" v:type="1" v:format="0;1;2" v:sortKey="4" v:langID="2052" v:val="VT4(0)"/>
+					<v:cp v:nameU="Bot" v:lbl="底部针脚数" v:type="1" v:format="0;1;2" v:sortKey="5" v:langID="2052" v:val="VT4(1)"/>
+					<v:cp v:nameU="Bot" v:lbl="" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+							v:langID="0" v:cal="0" v:val="VT4(0)"/>
+				</v:custProps>
+				<v:userDefs>
+					<v:ud v:nameU="Ratio" v:val="VT0(0.2):26"/>
+					<v:ud v:nameU="Top" v:val="VT4(顶部)"/>
+					<v:ud v:nameU="Base" v:val="VT4(底部)"/>
+					<v:ud v:nameU="Middle" v:val="VT4(中部)"/>
+					<v:ud v:nameU="Complete" v:val="VT4(全部)"/>
+					<v:ud v:nameU="Type" v:val="VT0(1):26"/>
+					<v:ud v:nameU="visDescription" v:val="VT4(Section of an integrated chip.  Adjoin with other sections.)"/>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<title>1X 组块底部</title>
+				<g id="shape894-293" v:mID="894" v:groupContext="shape" v:layerMember="0">
+					<title>工作表.894</title>
+					<rect x="0" y="217.558" width="84.7077" height="12.5197" class="st4"/>
+				</g>
+				<g id="shape895-295" v:mID="895" v:groupContext="shape" v:layerMember="0" transform="translate(-16.9415,-6.25984)">
+					<title>工作表.895</title>
+					<v:userDefs>
+						<v:ud v:nameU="ArmWidth"/>
+					</v:userDefs>
+					<path d="M0 230.08 L16.94 230.08" class="st3"/>
+				</g>
+				<g id="shape896-298" v:mID="896" v:groupContext="shape" v:layerMember="0"
+						transform="translate(-2.34793E-12,-1.6581)">
+					<title>工作表.896</title>
+					<desc>data_in</desc>
+					<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+					<v:textRect cx="10.8938" cy="225.476" width="21.79" height="9.20349"/>
+					<text x="1.68" y="227.28" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>data_in</text>				</g>
+				<g id="shape897-300" v:mID="897" v:groupContext="shape" v:layerMember="0" transform="translate(-37.4142,-6.25984)">
+					<title>工作表.897</title>
+					<desc>cpu_data_out</desc>
+					<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+					<v:textRect cx="18.7071" cy="225.476" width="37.42" height="9.20349"/>
+					<text x="1.68" y="227.28" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>cpu<tspan
+								class="st5" v:langID="2057">_data_out</tspan></text>				</g>
+				<g id="shape898-303" v:mID="898" v:groupContext="shape" v:layerMember="0" transform="translate(84.7077,-6.25984)">
+					<title>工作表.898</title>
+					<v:userDefs>
+						<v:ud v:nameU="ArmWidth"/>
+					</v:userDefs>
+					<path d="M0 230.08 L16.94 230.08" class="st3"/>
+				</g>
+				<g id="shape899-306" v:mID="899" v:groupContext="shape" v:layerMember="0" transform="translate(59.1233,-1.6581)">
+					<title>工作表.899</title>
+					<desc>data_out</desc>
+					<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+					<v:textRect cx="12.7922" cy="225.476" width="25.59" height="9.20349"/>
+					<text x="1.68" y="227.28" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>data_out</text>				</g>
+				<g id="shape901-308" v:mID="901" v:groupContext="shape" v:layerMember="0"
+						transform="translate(285.138,200.617) rotate(90)">
+					<title>工作表.901</title>
+				</g>
+				<g id="shape902-310" v:mID="902" v:groupContext="shape" v:layerMember="0"
+						transform="translate(259.726,200.617) rotate(90)">
+					<title>工作表.902</title>
+				</g>
+				<g id="shape907-312" v:mID="907" v:groupContext="shape" v:layerMember="0"
+						transform="translate(285.138,230.078) rotate(90)">
+					<title>工作表.907</title>
+				</g>
+				<g id="shape910-314" v:mID="910" v:groupContext="shape" v:layerMember="0"
+						transform="translate(259.726,230.078) rotate(90)">
+					<title>工作表.910</title>
+				</g>
+				<g id="shape913-316" v:mID="913" v:groupContext="shape" v:layerMember="0">
+					<title>工作表.913</title>
+					<path d="M0 230.08 L84.71 230.08" class="st3"/>
+					<path d="M84.71 230.08 L84.71 217.56" class="st3"/>
+					<path d="M0 217.56 L0 230.08" class="st3"/>
+				</g>
+			</g>
+		</g>
+		<g id="group914-321" transform="translate(165.379,-132.538)" v:mID="914" v:groupContext="group">
+			<title>工作表.914</title>
+			<g id="group915-322" transform="translate(4.79616E-14,-50.0787)" v:mID="915" v:groupContext="group" v:layerMember="0">
+				<v:custProps>
+					<v:cp v:nameU="Input" v:lbl="输入数目" v:type="1" v:format="0;1" v:sortKey="2" v:langID="2052" v:val="VT4(1)"/>
+					<v:cp v:nameU="Output" v:lbl="输出数目" v:type="1" v:format="0;1" v:sortKey="3" v:langID="2052" v:val="VT4(1)"/>
+					<v:cp v:nameU="Type" v:lbl="部分" v:type="1" v:format="顶部;底部;中部;全部" v:sortKey="1" v:langID="2052" v:val="VT4(顶部)"/>
+					<v:cp v:nameU="Top" v:lbl="顶部针脚数" v:type="1" v:format="0;1;2" v:sortKey="4" v:langID="2052" v:val="VT4(1)"/>
+					<v:cp v:nameU="Bot" v:lbl="底部针脚数" v:type="1" v:format="0;1;2" v:sortKey="5" v:langID="2052" v:val="VT4(0)"/>
+					<v:cp v:nameU="Output" v:lbl="" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+							v:langID="0" v:cal="0" v:val="VT4(0)"/>
+					<v:cp v:nameU="Top" v:lbl="" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+							v:langID="0" v:cal="0" v:val="VT4(0)"/>
+				</v:custProps>
+				<v:userDefs>
+					<v:ud v:nameU="Ratio" v:val="VT0(0.2):26"/>
+					<v:ud v:nameU="Top" v:val="VT4(顶部)"/>
+					<v:ud v:nameU="Base" v:val="VT4(底部)"/>
+					<v:ud v:nameU="Middle" v:val="VT4(中部)"/>
+					<v:ud v:nameU="Complete" v:val="VT4(全部)"/>
+					<v:ud v:nameU="Type" v:val="VT0(0):26"/>
+					<v:ud v:nameU="visDescription" v:val="VT4(Section of an integrated chip.  Adjoin with other sections.)"/>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<title>1X 组块顶部</title>
+				<desc>FIFO: BUF1 / BUF2</desc>
+				<g id="shape916-323" v:mID="916" v:groupContext="shape" v:layerMember="0">
+					<title>工作表.916</title>
+					<rect x="0" y="217.558" width="84.7077" height="12.5197" class="st4"/>
+				</g>
+				<g id="shape917-325" v:mID="917" v:groupContext="shape" v:layerMember="0" transform="translate(-16.9415,-6.25984)">
+					<title>工作表.917</title>
+					<v:userDefs>
+						<v:ud v:nameU="ArmWidth"/>
+					</v:userDefs>
+					<path d="M0 230.08 L16.94 230.08" class="st3"/>
+				</g>
+				<g id="shape918-328" v:mID="918" v:groupContext="shape" v:layerMember="0"
+						transform="translate(-2.34793E-12,-1.6581)">
+					<title>工作表.918</title>
+					<desc>clk</desc>
+					<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+					<v:textRect cx="6" cy="225.476" width="12.01" height="9.20349"/>
+					<text x="2.68" y="227.28" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>clk</text>				</g>
+				<g id="shape919-330" v:mID="919" v:groupContext="shape" v:layerMember="0" transform="translate(-12,-6.25984)">
+					<title>工作表.919</title>
+					<desc>clk</desc>
+					<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+					<v:textRect cx="6" cy="225.476" width="12.01" height="9.20349"/>
+					<text x="2.68" y="227.28" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>clk</text>				</g>
+				<g id="shape920-332" v:mID="920" v:groupContext="shape" v:layerMember="0" transform="translate(84.7077,-6.25984)">
+					<title>工作表.920</title>
+					<v:userDefs>
+						<v:ud v:nameU="ArmWidth"/>
+					</v:userDefs>
+				</g>
+				<g id="shape923-334" v:mID="923" v:groupContext="shape" v:layerMember="0"
+						transform="translate(285.138,200.617) rotate(90)">
+					<title>工作表.923</title>
+				</g>
+				<g id="shape924-336" v:mID="924" v:groupContext="shape" v:layerMember="0"
+						transform="translate(259.726,200.617) rotate(90)">
+					<title>工作表.924</title>
+				</g>
+				<g id="shape929-338" v:mID="929" v:groupContext="shape" v:layerMember="0"
+						transform="translate(285.138,230.078) rotate(90)">
+					<title>工作表.929</title>
+				</g>
+				<g id="shape932-340" v:mID="932" v:groupContext="shape" v:layerMember="0"
+						transform="translate(259.726,230.078) rotate(90)">
+					<title>工作表.932</title>
+				</g>
+				<g id="shape935-342" v:mID="935" v:groupContext="shape" v:layerMember="0">
+					<title>工作表.935</title>
+					<path d="M84.71 230.08 L84.71 217.56" class="st3"/>
+					<path d="M0 217.56 L84.71 217.56" class="st3"/>
+					<path d="M0 217.56 L0 230.08" class="st3"/>
+				</g>
+				<g id="shape915-347" v:mID="915" v:groupContext="groupContent" v:layerMember="0">
+					<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+					<v:textRect cx="84.7077" cy="206.697" width="48.18" height="9.20349"/>
+					<text x="62.3" y="208.5" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>FIFO: BUF1 / BUF2</text>				</g>
+			</g>
+			<g id="group936-349" transform="translate(3.9968E-14,-37.5591)" v:mID="936" v:groupContext="group" v:layerMember="0">
+				<v:custProps>
+					<v:cp v:nameU="Input" v:lbl="输入数目" v:type="1" v:format="0;1" v:sortKey="2" v:langID="2052" v:val="VT4(1)"/>
+					<v:cp v:nameU="Output" v:lbl="输出数目" v:type="1" v:format="0;1" v:sortKey="3" v:langID="2052" v:val="VT4(1)"/>
+					<v:cp v:nameU="Type" v:lbl="部分" v:type="1" v:format="顶部;底部;中部;全部" v:sortKey="1" v:langID="2052" v:val="VT4(中部)"/>
+					<v:cp v:nameU="Top" v:lbl="顶部针脚数" v:type="1" v:format="0;1;2" v:sortKey="4" v:langID="2052" v:val="VT4(0)"/>
+					<v:cp v:nameU="Bot" v:lbl="底部针脚数" v:type="1" v:format="0;1;2" v:sortKey="5" v:langID="2052" v:val="VT4(0)"/>
+					<v:cp v:nameU="Output" v:lbl="" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+							v:langID="0" v:cal="0" v:val="VT4(0)"/>
+				</v:custProps>
+				<v:userDefs>
+					<v:ud v:nameU="Ratio" v:val="VT0(0.2):26"/>
+					<v:ud v:nameU="Top" v:val="VT4(顶部)"/>
+					<v:ud v:nameU="Base" v:val="VT4(底部)"/>
+					<v:ud v:nameU="Middle" v:val="VT4(中部)"/>
+					<v:ud v:nameU="Complete" v:val="VT4(全部)"/>
+					<v:ud v:nameU="Type" v:val="VT0(2):26"/>
+					<v:ud v:nameU="visDescription" v:val="VT4(Section of an integrated chip.  Adjoin with other sections.)"/>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<title>1X 组块中部</title>
+				<g id="shape937-350" v:mID="937" v:groupContext="shape" v:layerMember="0">
+					<title>工作表.937</title>
+					<rect x="0" y="217.558" width="84.7077" height="12.5197" class="st4"/>
+				</g>
+				<g id="shape938-352" v:mID="938" v:groupContext="shape" v:layerMember="0" transform="translate(-16.9415,-6.25984)">
+					<title>工作表.938</title>
+					<v:userDefs>
+						<v:ud v:nameU="ArmWidth"/>
+					</v:userDefs>
+					<path d="M0 230.08 L16.94 230.08" class="st3"/>
+				</g>
+				<g id="shape939-355" v:mID="939" v:groupContext="shape" v:layerMember="0"
+						transform="translate(-2.34793E-12,-1.6581)">
+					<title>工作表.939</title>
+					<desc>rstn</desc>
+					<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+					<v:textRect cx="6.48027" cy="225.476" width="12.97" height="9.20349"/>
+					<text x="1.68" y="227.28" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>rstn</text>				</g>
+				<g id="shape940-357" v:mID="940" v:groupContext="shape" v:layerMember="0" transform="translate(-12.9605,-6.25984)">
+					<title>工作表.940</title>
+					<desc>rstn</desc>
+					<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+					<v:textRect cx="6.48027" cy="225.476" width="12.97" height="9.20349"/>
+					<text x="1.68" y="227.28" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>rstn</text>				</g>
+				<g id="shape941-359" v:mID="941" v:groupContext="shape" v:layerMember="0" transform="translate(84.7077,-6.25984)">
+					<title>工作表.941</title>
+					<v:userDefs>
+						<v:ud v:nameU="ArmWidth"/>
+					</v:userDefs>
+				</g>
+				<g id="shape944-361" v:mID="944" v:groupContext="shape" v:layerMember="0"
+						transform="translate(285.138,200.617) rotate(90)">
+					<title>工作表.944</title>
+				</g>
+				<g id="shape945-363" v:mID="945" v:groupContext="shape" v:layerMember="0"
+						transform="translate(259.726,200.617) rotate(90)">
+					<title>工作表.945</title>
+				</g>
+				<g id="shape950-365" v:mID="950" v:groupContext="shape" v:layerMember="0"
+						transform="translate(285.138,230.078) rotate(90)">
+					<title>工作表.950</title>
+				</g>
+				<g id="shape953-367" v:mID="953" v:groupContext="shape" v:layerMember="0"
+						transform="translate(259.726,230.078) rotate(90)">
+					<title>工作表.953</title>
+				</g>
+				<g id="shape956-369" v:mID="956" v:groupContext="shape" v:layerMember="0">
+					<title>工作表.956</title>
+					<path d="M84.71 230.08 L84.71 217.56" class="st3"/>
+					<path d="M0 217.56 L0 230.08" class="st3"/>
+				</g>
+			</g>
+			<g id="group957-373" transform="translate(2.39808E-14,-25.0394)" v:mID="957" v:groupContext="group" v:layerMember="0">
+				<v:custProps>
+					<v:cp v:nameU="Input" v:lbl="输入数目" v:type="1" v:format="0;1" v:sortKey="2" v:langID="2052" v:val="VT4(1)"/>
+					<v:cp v:nameU="Output" v:lbl="输出数目" v:type="1" v:format="0;1" v:sortKey="3" v:langID="2052" v:val="VT4(1)"/>
+					<v:cp v:nameU="Type" v:lbl="部分" v:type="1" v:format="顶部;底部;中部;全部" v:sortKey="1" v:langID="2052" v:val="VT4(中部)"/>
+					<v:cp v:nameU="Top" v:lbl="顶部针脚数" v:type="1" v:format="0;1;2" v:sortKey="4" v:langID="2052" v:val="VT4(0)"/>
+					<v:cp v:nameU="Bot" v:lbl="底部针脚数" v:type="1" v:format="0;1;2" v:sortKey="5" v:langID="2052" v:val="VT4(0)"/>
+				</v:custProps>
+				<v:userDefs>
+					<v:ud v:nameU="Ratio" v:val="VT0(0.2):26"/>
+					<v:ud v:nameU="Top" v:val="VT4(顶部)"/>
+					<v:ud v:nameU="Base" v:val="VT4(底部)"/>
+					<v:ud v:nameU="Middle" v:val="VT4(中部)"/>
+					<v:ud v:nameU="Complete" v:val="VT4(全部)"/>
+					<v:ud v:nameU="Type" v:val="VT0(2):26"/>
+					<v:ud v:nameU="visDescription" v:val="VT4(Section of an integrated chip.  Adjoin with other sections.)"/>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<title>1X 组块中部.705</title>
+				<g id="shape958-374" v:mID="958" v:groupContext="shape" v:layerMember="0">
+					<title>工作表.958</title>
+					<rect x="0" y="217.558" width="84.7077" height="12.5197" class="st4"/>
+				</g>
+				<g id="shape959-376" v:mID="959" v:groupContext="shape" v:layerMember="0" transform="translate(-16.9415,-6.25984)">
+					<title>工作表.959</title>
+					<v:userDefs>
+						<v:ud v:nameU="ArmWidth"/>
+					</v:userDefs>
+					<path d="M0 230.08 L16.94 230.08" class="st3"/>
+				</g>
+				<g id="shape960-379" v:mID="960" v:groupContext="shape" v:layerMember="0"
+						transform="translate(-2.34793E-12,-1.6581)">
+					<title>工作表.960</title>
+					<desc>input_valid</desc>
+					<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+					<v:textRect cx="15.3409" cy="225.476" width="30.69" height="9.20349"/>
+					<text x="1.68" y="227.28" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>input_valid</text>				</g>
+				<g id="shape962-381" v:mID="962" v:groupContext="shape" v:layerMember="0" transform="translate(84.7077,-6.25984)">
+					<title>工作表.962</title>
+					<v:userDefs>
+						<v:ud v:nameU="ArmWidth"/>
+					</v:userDefs>
+					<path d="M0 230.08 L16.94 230.08" class="st3"/>
+				</g>
+				<g id="shape963-384" v:mID="963" v:groupContext="shape" v:layerMember="0" transform="translate(50.229,-1.6581)">
+					<title>工作表.963</title>
+					<desc>output_valid</desc>
+					<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+					<v:textRect cx="17.2393" cy="225.476" width="34.48" height="9.20349"/>
+					<text x="1.68" y="227.28" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>output_valid</text>				</g>
+				<g id="shape965-386" v:mID="965" v:groupContext="shape" v:layerMember="0"
+						transform="translate(285.138,200.617) rotate(90)">
+					<title>工作表.965</title>
+				</g>
+				<g id="shape966-388" v:mID="966" v:groupContext="shape" v:layerMember="0"
+						transform="translate(259.726,200.617) rotate(90)">
+					<title>工作表.966</title>
+				</g>
+				<g id="shape971-390" v:mID="971" v:groupContext="shape" v:layerMember="0"
+						transform="translate(285.138,230.078) rotate(90)">
+					<title>工作表.971</title>
+				</g>
+				<g id="shape974-392" v:mID="974" v:groupContext="shape" v:layerMember="0"
+						transform="translate(259.726,230.078) rotate(90)">
+					<title>工作表.974</title>
+				</g>
+				<g id="shape977-394" v:mID="977" v:groupContext="shape" v:layerMember="0">
+					<title>工作表.977</title>
+					<path d="M84.71 230.08 L84.71 217.56" class="st3"/>
+					<path d="M0 217.56 L0 230.08" class="st3"/>
+				</g>
+			</g>
+			<g id="group978-398" transform="translate(0,-12.5197)" v:mID="978" v:groupContext="group" v:layerMember="0">
+				<v:custProps>
+					<v:cp v:nameU="Input" v:lbl="输入数目" v:type="1" v:format="0;1" v:sortKey="2" v:langID="2052" v:val="VT4(1)"/>
+					<v:cp v:nameU="Output" v:lbl="输出数目" v:type="1" v:format="0;1" v:sortKey="3" v:langID="2052" v:val="VT4(1)"/>
+					<v:cp v:nameU="Type" v:lbl="部分" v:type="1" v:format="顶部;底部;中部;全部" v:sortKey="1" v:langID="2052" v:val="VT4(中部)"/>
+					<v:cp v:nameU="Top" v:lbl="顶部针脚数" v:type="1" v:format="0;1;2" v:sortKey="4" v:langID="2052" v:val="VT4(0)"/>
+					<v:cp v:nameU="Bot" v:lbl="底部针脚数" v:type="1" v:format="0;1;2" v:sortKey="5" v:langID="2052" v:val="VT4(0)"/>
+				</v:custProps>
+				<v:userDefs>
+					<v:ud v:nameU="Ratio" v:val="VT0(0.2):26"/>
+					<v:ud v:nameU="Top" v:val="VT4(顶部)"/>
+					<v:ud v:nameU="Base" v:val="VT4(底部)"/>
+					<v:ud v:nameU="Middle" v:val="VT4(中部)"/>
+					<v:ud v:nameU="Complete" v:val="VT4(全部)"/>
+					<v:ud v:nameU="Type" v:val="VT0(2):26"/>
+					<v:ud v:nameU="visDescription" v:val="VT4(Section of an integrated chip.  Adjoin with other sections.)"/>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<title>1X 组块中部.726</title>
+				<g id="shape979-399" v:mID="979" v:groupContext="shape" v:layerMember="0">
+					<title>工作表.979</title>
+					<rect x="0" y="217.558" width="84.7077" height="12.5197" class="st4"/>
+				</g>
+				<g id="shape980-401" v:mID="980" v:groupContext="shape" v:layerMember="0" transform="translate(-16.9415,-6.25984)">
+					<title>工作表.980</title>
+					<v:userDefs>
+						<v:ud v:nameU="ArmWidth"/>
+					</v:userDefs>
+					<path d="M0 230.08 L16.94 230.08" class="st3"/>
+				</g>
+				<g id="shape981-404" v:mID="981" v:groupContext="shape" v:layerMember="0"
+						transform="translate(-2.34793E-12,-1.6581)">
+					<title>工作表.981</title>
+					<desc>input_enable</desc>
+					<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+					<v:textRect cx="17.8588" cy="225.476" width="35.72" height="9.20349"/>
+					<text x="1.68" y="227.28" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>input_enable</text>				</g>
+				<g id="shape983-406" v:mID="983" v:groupContext="shape" v:layerMember="0" transform="translate(84.7077,-6.25984)">
+					<title>工作表.983</title>
+					<v:userDefs>
+						<v:ud v:nameU="ArmWidth"/>
+					</v:userDefs>
+					<path d="M0 230.08 L16.94 230.08" class="st3"/>
+				</g>
+				<g id="shape984-409" v:mID="984" v:groupContext="shape" v:layerMember="0" transform="translate(45.1932,-1.6581)">
+					<title>工作表.984</title>
+					<desc>output_enable</desc>
+					<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+					<v:textRect cx="19.7572" cy="225.476" width="39.52" height="9.20349"/>
+					<text x="1.68" y="227.28" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>output_enable</text>				</g>
+				<g id="shape986-411" v:mID="986" v:groupContext="shape" v:layerMember="0"
+						transform="translate(285.138,200.617) rotate(90)">
+					<title>工作表.986</title>
+				</g>
+				<g id="shape987-413" v:mID="987" v:groupContext="shape" v:layerMember="0"
+						transform="translate(259.726,200.617) rotate(90)">
+					<title>工作表.987</title>
+				</g>
+				<g id="shape992-415" v:mID="992" v:groupContext="shape" v:layerMember="0"
+						transform="translate(285.138,230.078) rotate(90)">
+					<title>工作表.992</title>
+				</g>
+				<g id="shape995-417" v:mID="995" v:groupContext="shape" v:layerMember="0"
+						transform="translate(259.726,230.078) rotate(90)">
+					<title>工作表.995</title>
+				</g>
+				<g id="shape998-419" v:mID="998" v:groupContext="shape" v:layerMember="0">
+					<title>工作表.998</title>
+					<path d="M84.71 230.08 L84.71 217.56" class="st3"/>
+					<path d="M0 217.56 L0 230.08" class="st3"/>
+				</g>
+			</g>
+			<g id="group999-423" v:mID="999" v:groupContext="group" v:layerMember="0">
+				<v:custProps>
+					<v:cp v:nameU="Input" v:lbl="输入数目" v:type="1" v:format="0;1" v:sortKey="2" v:langID="2052" v:val="VT4(1)"/>
+					<v:cp v:nameU="Output" v:lbl="输出数目" v:type="1" v:format="0;1" v:sortKey="3" v:langID="2052" v:val="VT4(1)"/>
+					<v:cp v:nameU="Type" v:lbl="部分" v:type="1" v:format="顶部;底部;中部;全部" v:sortKey="1" v:langID="2052" v:val="VT4(底部)"/>
+					<v:cp v:nameU="Top" v:lbl="顶部针脚数" v:type="1" v:format="0;1;2" v:sortKey="4" v:langID="2052" v:val="VT4(0)"/>
+					<v:cp v:nameU="Bot" v:lbl="底部针脚数" v:type="1" v:format="0;1;2" v:sortKey="5" v:langID="2052" v:val="VT4(1)"/>
+					<v:cp v:nameU="Bot" v:lbl="" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+							v:langID="0" v:cal="0" v:val="VT4(0)"/>
+				</v:custProps>
+				<v:userDefs>
+					<v:ud v:nameU="Ratio" v:val="VT0(0.2):26"/>
+					<v:ud v:nameU="Top" v:val="VT4(顶部)"/>
+					<v:ud v:nameU="Base" v:val="VT4(底部)"/>
+					<v:ud v:nameU="Middle" v:val="VT4(中部)"/>
+					<v:ud v:nameU="Complete" v:val="VT4(全部)"/>
+					<v:ud v:nameU="Type" v:val="VT0(1):26"/>
+					<v:ud v:nameU="visDescription" v:val="VT4(Section of an integrated chip.  Adjoin with other sections.)"/>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<title>1X 组块底部</title>
+				<g id="shape1000-424" v:mID="1000" v:groupContext="shape" v:layerMember="0">
+					<title>工作表.1000</title>
+					<rect x="0" y="217.558" width="84.7077" height="12.5197" class="st4"/>
+				</g>
+				<g id="shape1001-426" v:mID="1001" v:groupContext="shape" v:layerMember="0"
+						transform="translate(-16.9415,-6.25984)">
+					<title>工作表.1001</title>
+					<v:userDefs>
+						<v:ud v:nameU="ArmWidth"/>
+					</v:userDefs>
+					<path d="M0 230.08 L16.94 230.08" class="st3"/>
+				</g>
+				<g id="shape1002-429" v:mID="1002" v:groupContext="shape" v:layerMember="0"
+						transform="translate(-2.34793E-12,-1.6581)">
+					<title>工作表.1002</title>
+					<desc>data_in</desc>
+					<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+					<v:textRect cx="10.8938" cy="225.476" width="21.79" height="9.20349"/>
+					<text x="1.68" y="227.28" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>data_in</text>				</g>
+				<g id="shape1004-431" v:mID="1004" v:groupContext="shape" v:layerMember="0" transform="translate(84.7077,-6.25984)">
+					<title>工作表.1004</title>
+					<v:userDefs>
+						<v:ud v:nameU="ArmWidth"/>
+					</v:userDefs>
+					<path d="M0 230.08 L16.94 230.08" class="st3"/>
+				</g>
+				<g id="shape1005-434" v:mID="1005" v:groupContext="shape" v:layerMember="0" transform="translate(59.1233,-1.6581)">
+					<title>工作表.1005</title>
+					<desc>data_out</desc>
+					<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+					<v:textRect cx="12.7922" cy="225.476" width="25.59" height="9.20349"/>
+					<text x="1.68" y="227.28" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>data_out</text>				</g>
+				<g id="shape1007-436" v:mID="1007" v:groupContext="shape" v:layerMember="0"
+						transform="translate(285.138,200.617) rotate(90)">
+					<title>工作表.1007</title>
+				</g>
+				<g id="shape1008-438" v:mID="1008" v:groupContext="shape" v:layerMember="0"
+						transform="translate(259.726,200.617) rotate(90)">
+					<title>工作表.1008</title>
+				</g>
+				<g id="shape1013-440" v:mID="1013" v:groupContext="shape" v:layerMember="0"
+						transform="translate(285.138,230.078) rotate(90)">
+					<title>工作表.1013</title>
+				</g>
+				<g id="shape1016-442" v:mID="1016" v:groupContext="shape" v:layerMember="0"
+						transform="translate(259.726,230.078) rotate(90)">
+					<title>工作表.1016</title>
+				</g>
+				<g id="shape1019-444" v:mID="1019" v:groupContext="shape" v:layerMember="0">
+					<title>工作表.1019</title>
+					<path d="M0 230.08 L84.71 230.08" class="st3"/>
+					<path d="M84.71 230.08 L84.71 217.56" class="st3"/>
+					<path d="M0 217.56 L0 230.08" class="st3"/>
+				</g>
+			</g>
+		</g>
+		<g id="shape1021-449" v:mID="1021" v:groupContext="shape" v:layerMember="1" transform="translate(60.8805,-83.1678)">
+			<title>动态连接线.1021</title>
+			<path d="M0 230.08 L35.5 230.08 L35.5 247 L87.56 247" class="st6"/>
+		</g>
+		<g id="shape1022-452" v:mID="1022" v:groupContext="shape" v:layerMember="1" transform="translate(60.8805,-67.0675)">
+			<title>动态连接线.1022</title>
+			<path d="M0 230.9 L29.54 230.9 L29.54 243.42 L87.56 243.42" class="st6"/>
+		</g>
+		<g id="shape1023-455" v:mID="1023" v:groupContext="shape" v:layerMember="1" transform="translate(60.8805,-52.3441)">
+			<title>动态连接线.1023</title>
+			<path d="M0 233.11 L24.16 233.11 L24.16 241.22 L87.56 241.22" class="st6"/>
+		</g>
+		<g id="shape1025-458" v:mID="1025" v:groupContext="shape" v:layerMember="1" transform="translate(393.351,-135.767)">
+			<title>动态连接线.1025</title>
+			<path d="M0 227.05 L54.52 227.05 L54.52 218.94 L75.72 218.94" class="st6"/>
+		</g>
+		<g id="shape1026-461" v:mID="1026" v:groupContext="shape" v:layerMember="1" transform="translate(393.351,-150.491)">
+			<title>动态连接线.1026</title>
+			<path d="M0 229.25 L48.85 229.25 L48.85 216.73 L75.72 216.73" class="st6"/>
+		</g>
+		<g id="shape1027-464" v:mID="1027" v:groupContext="shape" v:layerMember="1" transform="translate(393.351,-163.837)">
+			<title>动态连接线.1027</title>
+			<path d="M0 230.08 L43.18 230.08 L43.18 213.15 L75.72 213.15" class="st6"/>
+		</g>
+		<g id="shape1028-467" v:mID="1028" v:groupContext="shape" transform="translate(165.308,-159.585)">
+			<title>工作表.1028</title>
+			<rect x="0" y="221.574" width="42.3538" height="8.50394" class="st7"/>
+		</g>
+		<g id="shape1029-471" v:mID="1029" v:groupContext="shape" transform="translate(165.308,-61.9888)">
+			<title>工作表.1029</title>
+			<rect x="0" y="221.574" width="42.3538" height="8.50394" class="st7"/>
+		</g>
+		<g id="shape1030-474" v:mID="1030" v:groupContext="shape" transform="translate(165.308,-134.646)">
+			<title>工作表.1030</title>
+			<rect x="0" y="221.574" width="42.3538" height="8.50394" class="st7"/>
+		</g>
+		<g id="shape1031-477" v:mID="1031" v:groupContext="shape" transform="translate(207.662,-147.402)">
+			<title>工作表.1031</title>
+			<rect x="0" y="221.574" width="42.3538" height="8.50394" class="st7"/>
+		</g>
+		<g id="shape1032-480" v:mID="1032" v:groupContext="shape" transform="translate(165.308,-36.8504)">
+			<title>工作表.1032</title>
+			<rect x="0" y="221.574" width="42.3538" height="8.50394" class="st7"/>
+		</g>
+		<g id="shape1033-483" v:mID="1033" v:groupContext="shape" transform="translate(207.662,-49.6063)">
+			<title>工作表.1033</title>
+			<rect x="0" y="221.574" width="42.3538" height="8.50394" class="st7"/>
+		</g>
+		<g id="shape1035-486" v:mID="1035" v:groupContext="shape" transform="translate(291.702,-134.646)">
+			<title>工作表.1035</title>
+			<rect x="0" y="221.574" width="42.3538" height="8.50394" class="st7"/>
+		</g>
+		<g id="shape1036-489" v:mID="1036" v:groupContext="shape" transform="translate(291.702,-159.585)">
+			<title>工作表.1036</title>
+			<rect x="0" y="221.574" width="42.3538" height="8.50394" class="st7"/>
+		</g>
+		<g id="shape1037-492" v:mID="1037" v:groupContext="shape" transform="translate(462.066,-53.2913)">
+			<title>工作表.1037</title>
+			<rect x="0" y="221.574" width="42.3538" height="8.50394" class="st7"/>
+		</g>
+		<g id="shape1038-495" v:mID="1038" v:groupContext="shape" transform="translate(460.008,-87.874)">
+			<title>工作表.1038</title>
+			<rect x="0" y="221.574" width="46.4696" height="8.50394" class="st7"/>
+		</g>
+		<g id="shape1040-498" v:mID="1040" v:groupContext="shape" transform="translate(20.7427,-70.697)">
+			<title>工作表.1040</title>
+			<rect x="0" y="222.822" width="51.9291" height="7.25572" class="st7"/>
+		</g>
+	</g>
+</svg>

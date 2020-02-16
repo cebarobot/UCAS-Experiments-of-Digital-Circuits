@@ -1,7 +1,12 @@
 *
 !*/
 !.gitignore
-# 
+# sources
 !*.v
 glbl.v
 !*.xdc
+# docs
+!*.md
+!*.png
+!*.svg
+!LICENCE
