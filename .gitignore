@@ -1,0 +1,7 @@
+*
+!*/
+!.gitignore
+# 
+!*.v
+glbl.v
+!*.xdc
